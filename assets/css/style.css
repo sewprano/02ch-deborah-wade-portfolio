@@ -156,3 +156,31 @@ footer {
     background-color: var(--secondary-contrast);
     color: var(--main-contrast);
 }
+
+/* medium view */
+@media only screen and (max-width: 1024px) {
+    .grids {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: none;
+    }
+
+    #development, #design {
+        padding: 35px;
+        margin: 15px;
+    }
+}
+
+/* small view */
+@media only screen and (max-width: 768px) {
+    .grids {
+        grid-template-columns: 1fr;
+        grid-gap: none;
+    }
+
+    #development, #design {
+        padding: 25px;
+        margin: 10px;
+    }
+
+
+}

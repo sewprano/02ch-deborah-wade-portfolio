@@ -49,6 +49,9 @@ nav ul {
     padding: 0;
     justify-content: space-evenly;
 }
+nav ul a {
+    color: var(--main-color);
+}
 
 /*Hero Banner*/
 #hero-banner {
@@ -78,13 +81,13 @@ section h3 {
 }
 
 /* About */
-.about {
+#about {
     margin: 2em;
 }
-.about h2 {
+#about h2 {
     color: var(--main-contrast)
 }
-.about p {
+#about p {
     font-family: var(--main-type);
     font-size: 30px;
     color: var(--secondary-contrast)
@@ -113,4 +116,14 @@ section h3 {
     max-width: 33%;
 }
 
+/* contact */
+#contactMe {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    text-decoration: none;
+}
 
+#contactMe img {
+    max-width: 3em;
+}

@@ -51,6 +51,7 @@ nav ul {
 }
 nav ul a {
     color: var(--main-color);
+    text-decoration: none;
 }
 
 /*Hero Banner*/
@@ -118,12 +119,30 @@ section h3 {
 
 /* contact */
 #contactMe {
+    background-color: var(--main-contrast);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 1em;
     text-decoration: none;
 }
 
+#contactMe a {
+    text-decoration: none;
+    color: var(--main-background);
+    font-size: 1.5em;
+}
+
 #contactMe img {
-    max-width: 3em;
+   max-width: 3em;
+}
+
+/* footer */
+footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--secondary-contrast);
+    color: var(--main-contrast);
 }
